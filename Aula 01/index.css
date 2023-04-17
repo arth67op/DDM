@@ -1,0 +1,38 @@
+body {
+    background-color: lightseagreen;
+}
+
+.box {
+    min-width: 100px; /* largura */
+    height: 100px; /* altura */
+    border: 3px dashed #dc143c; /* espessura, estilo, cor da borda */
+}
+
+.row {
+    display: flex; /* habilita os recursos do flex */
+    flex-direction: row; /* transforma o elemento em uma linha (horizontal) */
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+/* Primeira linha */
+.row:nth-of-type(1) {
+    justify-content: flex-start;
+}
+
+/* Segunda linha */
+.row:nth-of-type(2) {
+    justify-content: flex-end;
+}
+
+/* Terceira linha */
+.row:nth-of-type(3) {
+    justify-content: center;
+}
+
+/* Quarta linha */
+.row:nth-of-type(4) {
+    justify-content: space-between;
+}

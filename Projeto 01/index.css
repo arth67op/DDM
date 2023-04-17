@@ -1,0 +1,23 @@
+header .material-symbols-outlined {
+    font-size: 36px;
+    color: black;
+}
+header h1 {
+    font-size: 125%;
+}
+
+.row {
+    display: flex; /* habilita os recursos do flex */
+    flex-direction: row; /* transforma o elemento em uma linha (horizontal) */
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.body {
+    margin: 0;
+}
+
+
+
